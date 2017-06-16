@@ -74,7 +74,7 @@ namespace Kinect2BVH
         }
 
         //eigentliche Schreibarbeit:
-        public void Entry(Skeleton skel)
+        public void Entry(Body skel)
         {
             this.intializingCounter++; 
                 for (int k = 0; k < bvhSkeleton.Bones.Count; k++)
